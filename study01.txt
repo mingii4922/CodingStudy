@@ -1,9 +1,0 @@
-# 홀수만 더하기
-T = int(input())
-for test_case in range(1, T + 1):
-    dst = list(map(int, input().split()))
-    ssum = 0
-    for i in range(len(dst)):
-        if(dst[i]%2!=0):
-            ssum += dst[i]
-    print("#%d"%(test_case),ssum)
